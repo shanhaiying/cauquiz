@@ -1,0 +1,123 @@
+%% xetex
+%% version: 0.10
+%% by Xiaojun Liu
+
+\documentclass[a4paper,12pt,twoside]{article}
+\usepackage{amsmath, amsthm, amssymb} %%注意,放在 xunicode, xltxtra 后会出现错误
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
+\usepackage[no-math]{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+
+%%\setmainfont{AR PL UMing CN}
+
+\setmainfont{Droid Sans Fallback}
+
+%\XeTeXlinebreaklocale "zh"
+%\XeTeXlinebreakskip = 0pt plus 1pt
+
+\newcommand{\mb}{\bb}
+\newcommand{\mc}{\mathcal}   
+\newcommand{\Lim}{\lim\limits}
+\newcommand{\Sum}{\sum\limits}
+\newcommand{\Liminf}{\liminf\limits}
+\newcommand{\vep}{\varepsilon}
+\newcommand{\vphi}{\varphi}
+
+\begin{document}
+
+  \pagestyle{fancy}
+  \fancyhead{}
+  \fancyhead[LE]{%\fontspec{Evermore Song}
+    \fontspec{Droid Sans Fallback}
+    \bf 学
+    院：\underline{\quad\quad\quad\quad\quad}班
+    级：\underline{\quad\quad\quad\quad}学
+    号：\underline{\quad\quad\quad\quad\quad}姓
+    名：\underline{\quad\quad\quad\quad}}
+  \fancyfoot[CO,CE]{\thepage}
+  \renewcommand{\headrulewidth}{0pt} 
+  \renewcommand{\footrulewidth}{0pt}
+
+%% 第一页例外
+  \thispagestyle{plain}
+  
+%% 标题
+  \begin{center}
+    \fontspec{LiSu}
+    \Huge{中国农业大学}\\
+    20xx-20xx学年秋季学期\\
+    \underline {数学} 课程期末试题\quad 
+  \end{center}
+  
+  {\Large \centerline{\begin{tabular}[c]{|c|c|c|c|c|c|c|c|c|c|c|c|} \hline
+        题目 & 一 & 二 & 三 & 四 & 五 & 六 & 七 & 八 & 九 & 十 & 总分\\
+        \hline
+        得分 &  & & & & & & & & & & \\
+        \hline
+      \end{tabular}}}
+  \vspace{0.2in}
+
+%% 考试试题正文
+%  \large
+
+  \begin{enumerate}
+  \item [一] (20分) 填空与选择
+    \begin{enumerate}
+    \item 这是第一道填空题（Your excercise）
+    \end{enumerate}
+    
+    \vspace{2in}
+    \newpage \thispagestyle{plain}
+
+      { %\fontspec{Evermore Song}
+      
+      \begin{center}
+        考生诚信承诺
+      \end{center}
+      {\small
+        \begin{enumerate}
+        \item [1.] 本人清楚学校关于考试管理、考场规则、考试作弊处理的规定，并严格
+          遵照执行。
+        \item [2.] 本人承诺在考试过程中没有作弊行为，所做试卷的内容真实可信。
+        \end{enumerate}}学院：\underline{\quad\quad\quad\quad\quad}班
+      级：\underline{\quad\quad\quad\quad}学
+      号：\underline{\quad\quad\quad\quad\quad}姓
+      名：\underline{\quad\quad\quad\quad}
+      
+    }
+
+  \item [二] (20分) 
+    \begin{enumerate}
+    \end{enumerate}
+    \vspace{2in}
+    
+    \newpage
+  \item [三] (20分)
+    \begin{enumerate}
+    \end{enumerate}
+
+    \vspace{2in}
+
+    \newpage
+
+  \item [四] (20分)
+    \begin{enumerate}
+
+    \end{enumerate}
+
+    \vspace{2in}
+
+    \newpage    
+  \item [五] (20分) 
+    \begin{enumerate}
+
+    \end{enumerate}
+
+    \vspace{2in}
+
+  \end{enumerate}
+\end{document}
+
