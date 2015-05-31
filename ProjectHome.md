@@ -1,0 +1,1 @@
+Provides a template for writing CAU (China Agricultural University) Quiz/Exam sheets in LaTeX (为中国农业大学提供一个LaTeX试卷模板).
